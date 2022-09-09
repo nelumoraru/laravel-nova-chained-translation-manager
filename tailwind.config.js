@@ -4,5 +4,8 @@ module.exports = {
     theme: {},
     variants: {},
     plugins: [],
-    important: '.translation-manager'
+    important: '.translation-manager',
+    corePlugins: {
+        preflight: false
+    }
 };
